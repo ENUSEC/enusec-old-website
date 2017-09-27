@@ -21,7 +21,7 @@ sass:
   style: compressed
 
 # Site Data
-url: # the base hostname & protocol for your site, e.g. http://example.com
+url: https://enusec.github.io/websiteJekyll  # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: # the subpath of your site, e.g. /blog
 title: Simple Texture
 description: "A gem-based responsive simple texture styled Jekyll theme."
