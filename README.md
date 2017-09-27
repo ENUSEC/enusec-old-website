@@ -2,7 +2,8 @@
 + bundle install
 + bundle exec jekyll serve --watch
 + posts - > posts dir
-+ assets - > images for post photos 
++ assets - > images for post photos
+
 
 
 # Simple Texture Jekyll Theme
