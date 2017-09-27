@@ -1,3 +1,9 @@
+# Notes
++ bundle install
++ bundle exec jekyll serve --watch
+
+
+
 # Simple Texture Jekyll Theme
 
 ![Gem Version](https://img.shields.io/gem/v/jekyll-theme-simple-texture.svg)
