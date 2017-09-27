@@ -1,3 +1,10 @@
+# Notes
++ bundle install
++ bundle exec jekyll serve --watch
++ posts - > posts dir
++ assets - > images for post photos 
+
+
 # Simple Texture Jekyll Theme
 
 ![Gem Version](https://img.shields.io/gem/v/jekyll-theme-simple-texture.svg)
