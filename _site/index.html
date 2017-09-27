@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>Simple Texture | A gem-based responsive simple texture styled Jekyll theme.</title>
+<meta property="og:title" content="Simple Texture" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="A gem-based responsive simple texture styled Jekyll theme." />
+<meta property="og:description" content="A gem-based responsive simple texture styled Jekyll theme." />
+<link rel="canonical" href="http://localhost:4000/" />
+<meta property="og:url" content="http://localhost:4000/" />
+<meta property="og:site_name" content="Simple Texture" />
+<script type="application/ld+json">
+{"name":"Simple Texture","description":"A gem-based responsive simple texture styled Jekyll theme.","url":"http://localhost:4000/","headline":"Simple Texture","dateModified":null,"datePublished":null,"sameAs":null,"@type":"WebSite","author":null,"image":null,"publisher":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+<meta name="keywords" content="" />
+
+
+
+
+
+<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Simple Texture" />
+    <link href='/assets/stylesheets/home.css' rel="stylesheet" type="text/css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+<script>window.Modernizr || document.write('<script src="/assets/javascripts/modernizr-2.8.3.min.js"><\/script>')</script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+    window.jQuery || document.write('<script src="/assets/javascripts/jquery-3.2.1.min.js"><\/script>')
+</script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js"></script>
+<script>
+    window.Pace || document.write('<script src="/assets/javascripts/pace.min.js"><\/script>')
+</script>
+
+
+</head>
+
+<body>
+    <ul id="menu">
+        <li data-menuanchor="bio"><a href="#bio">Biography</a></li>
+        <li data-menuanchor="social"><a href="#social">Social Links</a></li>
+    </ul>
+
+    <div id="section0" class="section" data-name="bio">
+
+        <!--[if IE]>
+    <p class="site-notice">You are using an outdated browser. Please <a href="http://browsehappy.com/" target="_blank">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true" target="_blank">activate Google Chrome Frame</a> to improve your experience.</p>
+<![endif]-->
+<noscript>
+    <p class="site-notice">This site requires JavaScript. Here are the instructions <a href="http://www.enable-javascript.com/" target="_blank">how to enable JavaScript in your web browser</a>.</p>
+</noscript>
+
+
+        <div class="headings animated fadeInLeft">
+            <h1>Simple Texutre</h1>
+            <h2>A gem-based responsive simple texture styled Jekyll theme</h2>
+            <div class="social-links"><a class="ico-github btn" href="https://github.com/yizeng/jekyll-theme-simple-texture" title="View on GitHub"></a></div>
+        </div>
+        <a class="btn-continue animated bounce" title="More" href="#social"></a>
+    </div>
+
+    <div id="section1" class="section" data-name="social">
+        <h1 class="animated hidden">
+            <a class="btn-enter btn-light" title="Enter Blog" href="/blog/">Enter Blog</a>
+        </h1>
+        <div class="social-links animated hidden">
+            <a class="btn-light ico-rss" href="/feed.xml" rel="me" target="_blank" title="feed"></a>
+            
+            
+                
+            
+                
+                    <a class="btn-light ico-github" href="https://github.com/yizeng/jekyll-theme-simple-texture" rel="me" target="_blank" title="github"></a>
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+        </div>
+    </div>
+
+    <script src="/assets/javascripts/jquery.fullPage.min.js"></script>
+<script src="/assets/javascripts/jquery.easing.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $.fn.fullpage({
+            anchors: ['bio', 'social'],
+            css3: true,
+            fixedElements: '.site-notice',
+            menu: '#menu',
+            navigation: true,
+            navigationPosition: 'right',
+            resize: false,
+            scrollingSpeed: 500,
+
+            afterLoad: function (anchorLink, index) {
+                if (index === 1) {
+                    $('#section0 .headings, #section0').removeClass('hidden').addClass('fadeInDown');
+                    $('.btn-continue').removeClass('hidden').addClass('bounce');
+                }
+                if (index === 2) {
+                    $('#section1 h1, #section1 .social-links').removeClass('hidden').addClass('fadeInUp');
+                }
+            },
+
+            onLeave: function (index, direction) {
+                if (index == 1 && direction == 'down') {
+                    $('#section0 .headings, #section0 .btn-continue').addClass('hidden').removeClass('bounce fadeInDown fadeInLeft');
+                }
+                if (index == 2 && direction == 'up') {
+                    $('#section1 h1, #section1 .social-links').addClass('hidden').removeClass('fadeInUp');
+                }
+            }
+        });
+    });
+
+</script>
+
+
+</body>
+
+</html>

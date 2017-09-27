@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://localhost:4000/blog/2013/04/22/hello-world/</loc>
+<lastmod>2013-04-22T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/blog/2017/05/25/quick-kramdown-demo/</loc>
+<lastmod>2017-05-25T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/blog/2017/05/27/code-highlighting/</loc>
+<lastmod>2017-05-27T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/blog/categories/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/blog/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/blog/tags/</loc>
+</url>
+</urlset>

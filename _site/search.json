@@ -1,0 +1,24 @@
+[
+  
+    {
+      "title"      : "A quick demo of Simple Texture theme&#39;s code highlighting features",
+      "url"        : "/blog/2017/05/27/code-highlighting/",
+      "date"       : "2017-05-27 00:00:00 +0100",
+      "shortdate"  : "May 27, 2017"
+    } ,
+  
+    {
+      "title"      : "Quick kramdown demo",
+      "url"        : "/blog/2017/05/25/quick-kramdown-demo/",
+      "date"       : "2017-05-25 00:00:00 +0100",
+      "shortdate"  : "May 25, 2017"
+    } ,
+  
+    {
+      "title"      : "Hello World!",
+      "url"        : "/blog/2013/04/22/hello-world/",
+      "date"       : "2013-04-22 00:00:00 +0100",
+      "shortdate"  : "April 22, 2013"
+    } 
+  
+]

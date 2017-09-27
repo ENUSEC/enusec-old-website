@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2017-09-27T15:35:19+01:00</updated><id>http://localhost:4000/</id><title type="html">Simple Texture</title><subtitle>A gem-based responsive simple texture styled Jekyll theme.</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;job_title&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;social_links&quot;=&gt;[{&quot;name&quot;=&gt;&quot;facebook&quot;, &quot;url&quot;=&gt;nil}, {&quot;name&quot;=&gt;&quot;github&quot;, &quot;url&quot;=&gt;&quot;https://github.com/yizeng/jekyll-theme-simple-texture&quot;}, {&quot;name&quot;=&gt;&quot;instagram&quot;, &quot;url&quot;=&gt;nil}, {&quot;name&quot;=&gt;&quot;linkedin&quot;, &quot;url&quot;=&gt;nil}, {&quot;name&quot;=&gt;&quot;stackoverflow&quot;, &quot;url&quot;=&gt;nil}, {&quot;name&quot;=&gt;&quot;twitter&quot;, &quot;url&quot;=&gt;nil}, {&quot;name&quot;=&gt;&quot;vk&quot;, &quot;url&quot;=&gt;nil}]}</name></author><entry><title type="html">A quick demo of Simple Texture theme's code highlighting features</title><link href="http://localhost:4000/blog/2017/05/27/code-highlighting/" rel="alternate" type="text/html" title="A quick demo of Simple Texture theme's code highlighting features" /><published>2017-05-27T00:00:00+01:00</published><updated>2017-05-27T00:00:00+01:00</updated><id>http://localhost:4000/blog/2017/05/27/code-highlighting</id><content type="html" xml:base="http://localhost:4000/blog/2017/05/27/code-highlighting/">&lt;blockquote&gt;
+  &lt;p&gt;This is code blocks and highlighting test page for &lt;a href=&quot;https://github.com/yizeng/jekyll-theme-simple-texture&quot;&gt;Simple Texture&lt;/a&gt; theme.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul class=&quot;toc&quot; id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#heading-code-spans&quot; id=&quot;markdown-toc-heading-code-spans&quot;&gt;Code Spans&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#heading-fenced-code-blocks&quot; id=&quot;markdown-toc-heading-fenced-code-blocks&quot;&gt;Fenced Code Blocks&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#heading-simple-codeblock-with-long-lines&quot; id=&quot;markdown-toc-heading-simple-codeblock-with-long-lines&quot;&gt;Simple codeblock with long lines&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#heading-language-of-code-blocks&quot; id=&quot;markdown-toc-heading-language-of-code-blocks&quot;&gt;Language of Code Blocks&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#heading-highlighted&quot; id=&quot;markdown-toc-heading-highlighted&quot;&gt;Highlighted&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#heading-external-gist&quot; id=&quot;markdown-toc-heading-external-gist&quot;&gt;External Gist&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#heading-simple-highlight&quot; id=&quot;markdown-toc-heading-simple-highlight&quot;&gt;Simple Highlight&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#heading-highlight-with-long-lines&quot; id=&quot;markdown-toc-heading-highlight-with-long-lines&quot;&gt;Highlight with long lines&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#heading-highlight-with-line-numbers-and-long-lines&quot; id=&quot;markdown-toc-heading-highlight-with-line-numbers-and-long-lines&quot;&gt;Highlight with line numbers and long lines&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;heading-code-spans&quot;&gt;Code Spans&lt;/h1&gt;
+
+&lt;p&gt;This is a test for inline codeblocks like &lt;code class=&quot;highlighter-rouge&quot;&gt;C:/Ruby23-x64&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;SELECT  &quot;offices&quot;.* FROM &quot;offices&quot; &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Here is a literal &lt;code class=&quot;highlighter-rouge&quot;&gt;`&lt;/code&gt; backtick.
+And here is a Ruby code fragment &lt;code class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Class&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;new&lt;/span&gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;heading-fenced-code-blocks&quot;&gt;Fenced Code Blocks&lt;/h1&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;~~~~~~~
+code with tildes
+~~~~~~~~
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;heading-simple-codeblock-with-long-lines&quot;&gt;Simple codeblock with long lines&lt;/h1&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;function myFunction() {
+    alert(&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&quot;);
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;heading-language-of-code-blocks&quot;&gt;Language of Code Blocks&lt;/h1&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;what?&lt;/span&gt;
+  &lt;span class=&quot;mi&quot;&gt;42&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;heading-highlighted&quot;&gt;Highlighted&lt;/h1&gt;
+
+&lt;h2 id=&quot;heading-external-gist&quot;&gt;External Gist&lt;/h2&gt;
+
+&lt;script src=&quot;https://gist.github.com/yizeng/9b871ad619e6dcdcc0545cac3101f361.js&quot;&gt;&lt;/script&gt;
+
+&lt;h2 id=&quot;heading-simple-highlight&quot;&gt;Simple Highlight&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;foo&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'foo'&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;heading-highlight-with-long-lines&quot;&gt;Highlight with long lines&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c#&quot; data-lang=&quot;c#&quot;&gt;&lt;span class=&quot;k&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Hello&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;Main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;Console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;WriteLine&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;heading-highlight-with-line-numbers-and-long-lines&quot;&gt;Highlight with line numbers and long lines&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;myFunction&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;job_title&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;social_links&quot;=&gt;[{&quot;name&quot;=&gt;&quot;facebook&quot;, &quot;url&quot;=&gt;nil}, {&quot;name&quot;=&gt;&quot;github&quot;, &quot;url&quot;=&gt;&quot;https://github.com/yizeng/jekyll-theme-simple-texture&quot;}, {&quot;name&quot;=&gt;&quot;instagram&quot;, &quot;url&quot;=&gt;nil}, {&quot;name&quot;=&gt;&quot;linkedin&quot;, &quot;url&quot;=&gt;nil}, {&quot;name&quot;=&gt;&quot;stackoverflow&quot;, &quot;url&quot;=&gt;nil}, {&quot;name&quot;=&gt;&quot;twitter&quot;, &quot;url&quot;=&gt;nil}, {&quot;name&quot;=&gt;&quot;vk&quot;, &quot;url&quot;=&gt;nil}]}</name></author><category term="demo" /><category term="jekyll" /><summary type="html">This is code blocks and highlighting test page for Simple Texture theme.</summary></entry><entry><title type="html">Quick kramdown demo</title><link href="http://localhost:4000/blog/2017/05/25/quick-kramdown-demo/" rel="alternate" type="text/html" title="Quick kramdown demo" /><published>2017-05-25T00:00:00+01:00</published><updated>2017-05-25T00:00:00+01:00</updated><id>http://localhost:4000/blog/2017/05/25/quick-kramdown-demo</id><content type="html" xml:base="http://localhost:4000/blog/2017/05/25/quick-kramdown-demo/">&lt;blockquote&gt;
+  &lt;p&gt;This is &lt;a href=&quot;https://kramdown.gettalong.org/&quot;&gt;kramdown&lt;/a&gt; formatting test page for &lt;a href=&quot;https://github.com/yizeng/jekyll-theme-simple-texture&quot;&gt;Simple Texture&lt;/a&gt; theme.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul class=&quot;toc&quot; id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#heading-general-usage&quot; id=&quot;markdown-toc-heading-general-usage&quot;&gt;General Usage&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#heading-blockquotes&quot; id=&quot;markdown-toc-heading-blockquotes&quot;&gt;Blockquotes&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#heading-nested&quot; id=&quot;markdown-toc-heading-nested&quot;&gt;Nested&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#heading-lists-inside&quot; id=&quot;markdown-toc-heading-lists-inside&quot;&gt;Lists inside&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#heading-long-lines&quot; id=&quot;markdown-toc-heading-long-lines&quot;&gt;Long lines&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#heading-lists&quot; id=&quot;markdown-toc-heading-lists&quot;&gt;Lists&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#heading-tables&quot; id=&quot;markdown-toc-heading-tables&quot;&gt;Tables&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#heading-horizontal-rules&quot; id=&quot;markdown-toc-heading-horizontal-rules&quot;&gt;Horizontal Rules&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#heading-images&quot; id=&quot;markdown-toc-heading-images&quot;&gt;Images&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;heading-general-usage&quot;&gt;General Usage&lt;/h1&gt;
+
+&lt;p&gt;This is a normal paragraph.&lt;/p&gt;
+
+&lt;p&gt;This is &lt;a href=&quot;http://yizeng.me&quot;&gt;a link&lt;/a&gt; to my homepage.
+A &lt;a href=&quot;http://yizeng.me/blog&quot; title=&quot;Yi Zeng's Blog&quot;&gt;link&lt;/a&gt; can also have a title.&lt;/p&gt;
+
+&lt;p&gt;This is a &lt;strong&gt;&lt;em&gt;text with light and strong emphasis&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;This &lt;strong&gt;is &lt;em&gt;emphasized&lt;/em&gt; as well&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;This &lt;em&gt;does _not_ work&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;This &lt;strong&gt;does __not__ work either&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;This is a footnote&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;This scarcely known tag emulates &lt;kbd&gt;keyboard text&lt;/kbd&gt;, which is usually styled like the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;code&amp;gt;&lt;/code&gt; tag.&lt;/p&gt;
+
+&lt;p&gt;This tag should denote &lt;ins&gt;inserted&lt;/ins&gt; text.&lt;/p&gt;
+
+&lt;p&gt;The emphasize tag should &lt;em&gt;italicize&lt;/em&gt; text.&lt;/p&gt;
+
+&lt;p&gt;This tag will let you &lt;strike&gt;strikeout text&lt;/strike&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;heading-blockquotes&quot;&gt;Blockquotes&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;ruby -v&lt;/p&gt;
+
+  &lt;p&gt;tsc -v&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;heading-nested&quot;&gt;Nested&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a paragraph in blockquote.&lt;/p&gt;
+
+  &lt;blockquote&gt;
+    &lt;p&gt;A nested blockquote.&lt;/p&gt;
+  &lt;/blockquote&gt;
+
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;heading-lists-inside&quot;&gt;Lists inside&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Unordered List&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;lists one&lt;/li&gt;
+    &lt;li&gt;lists two&lt;/li&gt;
+    &lt;li&gt;lists three&lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;p&gt;Ordered List&lt;/p&gt;
+  &lt;ol&gt;
+    &lt;li&gt;lists one&lt;/li&gt;
+    &lt;li&gt;lists two&lt;/li&gt;
+    &lt;li&gt;lists three&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;heading-long-lines&quot;&gt;Long lines&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Jekyll is a simple, blog-aware, static site generator perfect for personal, project, or organization sites. Think of it like a file-based CMS, without all the complexity. Jekyll takes your content, renders Markdown and Liquid templates, and spits out a complete, static website ready to be served by Apache, Nginx or another web server. Jekyll is the engine behind GitHub Pages, which you can use to host sites right from your GitHub repositories.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;heading-lists&quot;&gt;Lists&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;list 1 item 1
+    &lt;ul&gt;
+      &lt;li&gt;nested list item 1&lt;/li&gt;
+      &lt;li&gt;nested list item 2&lt;/li&gt;
+      &lt;li&gt;nested list item 3 with blockquote
+        &lt;blockquote&gt;
+          &lt;p&gt;ruby -v&lt;/p&gt;
+
+          &lt;p&gt;tsc -v&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;list 1 item 2&lt;/li&gt;
+  &lt;li&gt;list 1 item 3&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;heading-tables&quot;&gt;Tables&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Table 1&lt;/p&gt;
+
+    &lt;table&gt;
+      &lt;thead&gt;
+        &lt;tr&gt;
+          &lt;th&gt;Default aligned&lt;/th&gt;
+          &lt;th style=&quot;text-align: left&quot;&gt;Left aligned&lt;/th&gt;
+          &lt;th style=&quot;text-align: center&quot;&gt;Center aligned&lt;/th&gt;
+          &lt;th style=&quot;text-align: right&quot;&gt;Right aligned&lt;/th&gt;
+        &lt;/tr&gt;
+      &lt;/thead&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;First body part&lt;/td&gt;
+          &lt;td style=&quot;text-align: left&quot;&gt;Second cell&lt;/td&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;Third cell&lt;/td&gt;
+          &lt;td style=&quot;text-align: right&quot;&gt;fourth cell&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;Second line&lt;/td&gt;
+          &lt;td style=&quot;text-align: left&quot;&gt;foo&lt;/td&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;strong&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&quot;text-align: right&quot;&gt;baz&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;Third line&lt;/td&gt;
+          &lt;td style=&quot;text-align: left&quot;&gt;quux&lt;/td&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;baz&lt;/td&gt;
+          &lt;td style=&quot;text-align: right&quot;&gt;bar&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;Footer row&lt;/td&gt;
+          &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+          &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Table 2&lt;/p&gt;
+
+    &lt;table&gt;
+      &lt;thead&gt;
+        &lt;tr&gt;
+          &lt;th&gt;Default aligned&lt;/th&gt;
+          &lt;th style=&quot;text-align: left&quot;&gt;Left aligned&lt;/th&gt;
+          &lt;th style=&quot;text-align: center&quot;&gt;Center aligned&lt;/th&gt;
+          &lt;th style=&quot;text-align: right&quot;&gt;Right aligned&lt;/th&gt;
+        &lt;/tr&gt;
+      &lt;/thead&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;First body part&lt;/td&gt;
+          &lt;td style=&quot;text-align: left&quot;&gt;Second cell&lt;/td&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;Third cell&lt;/td&gt;
+          &lt;td style=&quot;text-align: right&quot;&gt;fourth cell&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;Second line&lt;/td&gt;
+          &lt;td style=&quot;text-align: left&quot;&gt;foo&lt;/td&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;strong&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&quot;text-align: right&quot;&gt;baz&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;Third line&lt;/td&gt;
+          &lt;td style=&quot;text-align: left&quot;&gt;quux&lt;/td&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt;baz&lt;/td&gt;
+          &lt;td style=&quot;text-align: right&quot;&gt;bar&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;Footer row&lt;/td&gt;
+          &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+          &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+          &lt;td style=&quot;text-align: right&quot;&gt; &lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;heading-horizontal-rules&quot;&gt;Horizontal Rules&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;heading-images&quot;&gt;Images&lt;/h2&gt;
+
+&lt;p&gt;Here comes an image!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://kramdown.gettalong.org/overview.png&quot; alt=&quot;smiley&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;This is a footnote. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;job_title&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;social_links&quot;=&gt;[{&quot;name&quot;=&gt;&quot;facebook&quot;, &quot;url&quot;=&gt;nil}, {&quot;name&quot;=&gt;&quot;github&quot;, &quot;url&quot;=&gt;&quot;https://github.com/yizeng/jekyll-theme-simple-texture&quot;}, {&quot;name&quot;=&gt;&quot;instagram&quot;, &quot;url&quot;=&gt;nil}, {&quot;name&quot;=&gt;&quot;linkedin&quot;, &quot;url&quot;=&gt;nil}, {&quot;name&quot;=&gt;&quot;stackoverflow&quot;, &quot;url&quot;=&gt;nil}, {&quot;name&quot;=&gt;&quot;twitter&quot;, &quot;url&quot;=&gt;nil}, {&quot;name&quot;=&gt;&quot;vk&quot;, &quot;url&quot;=&gt;nil}]}</name></author><category term="demo" /><category term="jekyll" /><summary type="html">This is kramdown formatting test page for Simple Texture theme.</summary></entry><entry><title type="html">Hello World!</title><link href="http://localhost:4000/blog/2013/04/22/hello-world/" rel="alternate" type="text/html" title="Hello World!" /><published>2013-04-22T00:00:00+01:00</published><updated>2013-04-22T00:00:00+01:00</updated><id>http://localhost:4000/blog/2013/04/22/hello-world</id><content type="html" xml:base="http://localhost:4000/blog/2013/04/22/hello-world/">&lt;p&gt;Hello World! This is the beginning of this theme.&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;job_title&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;social_links&quot;=&gt;[{&quot;name&quot;=&gt;&quot;facebook&quot;, &quot;url&quot;=&gt;nil}, {&quot;name&quot;=&gt;&quot;github&quot;, &quot;url&quot;=&gt;&quot;https://github.com/yizeng/jekyll-theme-simple-texture&quot;}, {&quot;name&quot;=&gt;&quot;instagram&quot;, &quot;url&quot;=&gt;nil}, {&quot;name&quot;=&gt;&quot;linkedin&quot;, &quot;url&quot;=&gt;nil}, {&quot;name&quot;=&gt;&quot;stackoverflow&quot;, &quot;url&quot;=&gt;nil}, {&quot;name&quot;=&gt;&quot;twitter&quot;, &quot;url&quot;=&gt;nil}, {&quot;name&quot;=&gt;&quot;vk&quot;, &quot;url&quot;=&gt;nil}]}</name></author><category term="random" /><category term="jekyll" /><summary type="html">Hello World! This is the beginning of this theme.</summary></entry></feed>
