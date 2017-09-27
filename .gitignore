@@ -1,6 +1,9 @@
 
 # Created by https://www.gitignore.io/api/jekyll
 
+## mac nonsense
+.DS_Store
+
 ### Jekyll ###
 _site/
 .sass-cache/
