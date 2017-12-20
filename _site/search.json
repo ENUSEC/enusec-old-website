@@ -3,21 +3,21 @@
     {
       "title"      : "CSAW17",
       "url"        : "/blog/2017/09/15/CSAW17-Night/",
-      "date"       : "2017-09-15 00:00:00 +0100",
+      "date"       : "2017-09-15 00:00:00 +0200",
       "shortdate"  : "September 15, 2017"
     } ,
   
     {
       "title"      : "A quick demo of Simple Texture theme&#39;s code highlighting features",
       "url"        : "/blog/2017/05/27/code-highlighting/",
-      "date"       : "2017-05-27 00:00:00 +0100",
+      "date"       : "2017-05-27 00:00:00 +0200",
       "shortdate"  : "May 27, 2017"
     } ,
   
     {
       "title"      : "Quick kramdown demo",
       "url"        : "/blog/2017/05/25/quick-kramdown-demo/",
-      "date"       : "2017-05-25 00:00:00 +0100",
+      "date"       : "2017-05-25 00:00:00 +0200",
       "shortdate"  : "May 25, 2017"
     } 
   

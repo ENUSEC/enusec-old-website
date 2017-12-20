@@ -1,5 +1,5 @@
+<!-- Add code here to main index page //aabywan --> 
 <!DOCTYPE html>
-
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -17,20 +17,24 @@
     <ul id="menu">
         <li data-menuanchor="bio"><a href="#bio">Biography</a></li>
         <li data-menuanchor="social"><a href="#social">Social Links</a></li>
+        <li data-menuanchor="committee"><a href="#committee">Committee</a></li>
     </ul>
 
+<!-- first swipe on index page //aabywan -->
     <div id="section0" class="section" data-name="bio">
-
         {% include common/notices.html %}
-
-        <div class="headings animated fadeInLeft">
-            {% if site.home.section1 %}{{ site.home.section1 }}{% endif %}
-            {% if site.home.section2 %}{{ site.home.section2 }}{% endif %}
-            {% if site.home.section3 %}{{ site.home.section3 }}{% endif %}
+        <div class="container">
+            <div class="row enusec_logo">
+                <div class="col-xs-12">
+                    <h1>enusec>_</h1>
+                    <img src="{{ site.baseurl }}/img/2017_enusec_logo_black.jpg"</img>
+                </div>
+            </div>
+            <a class="btn-continue animated bounce" title="{{ site.data.i18n[site.lang].more }}" href="#social"></a>
         </div>
-        <a class="btn-continue animated bounce" title="{{ site.data.i18n[site.lang].more }}" href="#social"></a>
     </div>
 
+<!-- second swipe on index page //aabywan -->
     <div id="section1" class="section" data-name="social">
         <h1 class="animated hidden">
             <a class="btn-enter btn-light" title="{{ site.data.i18n[site.lang].enter_blog }}" href="{{ site.paths.blog | relative_url }}">{{ site.data.i18n[site.lang].enter_blog }}</a>
@@ -46,6 +50,42 @@
                 {% endif %}
             {% endfor %}
         </div>
+        <a class="btn-continue animated bounce" title="{{ site.data.i18n[site.lang].more }}" href="#committee"></a>
+    </div>
+
+<!-- third swipe on index page //aabywan -->
+    <div id="section3" class="section" data-name="committee">
+        <div class="headings animated fadeInLeft">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="{{site.url}}{{site.baseurl}}/assets/images/peter.png"> </img>
+                        <p>Peter Aaby
+                    </div>
+                    <div class="col-md-4">
+                        <img src="{{site.url}}{{site.baseurl}}/assets/images/kinga.png"> </img>
+                        <p> Kinga Kieczkowska
+                    </div>
+                    <div class="col-md-4">
+                        <img src="{{site.url}}{{site.baseurl}}/assets/images/euan.png"> </img>
+                        <p> Eaun Mcfadzean
+                    </div>
+                    <div class="col-md-4">
+                        <img src="{{site.url}}{{site.baseurl}}/assets/images/michael.png"> </img>
+                        <p> Michal Ciap
+                    </div>
+                    <div class="col-md-4">
+                        <img src="{{site.url}}{{site.baseurl}}/assets/images/scott.png"> </img>
+                        <p> Scott Bean
+                    </div>
+                    <div class="col-md-4">
+                        <img src="{{site.url}}{{site.baseurl}}/assets/images/helena.png"> </img>
+                        <p> Helena Lucas
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="btn-continue animated bounce" title="{{ site.data.i18n[site.lang].more }}" href="#bio"></a>
     </div>
 
     {% include home/scripts.html %}

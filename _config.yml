@@ -21,35 +21,27 @@ sass:
   style: compressed
 
 # Site Data
-url: https://enusec.github.io/websiteJekyll # the base hostname & protocol for your site, e.g. http://example.com
+url: https://enusec.github.io # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: /websiteJekyll # the subpath of your site, e.g. /blog
 title: ENUSEC>_
 description: "Edinburgh Napier University Security Society"
-keywords: 'jekyll,theme,gem-based,blog'
+keywords: 'enusec,napier,blog'
 author:
   name:
-  job_title:
-  location:
   email: enusec@gmail.com
   social_links:
     - name: facebook
       url: https://en-gb.facebook.com/enusec/
     - name: github
       url: https://github.com/enusec
-    - name: instagram
-      url:
-    - name: linkedin
-      url:
-    - name: stackoverflow
-      url:
     - name: twitter
       url: https://twitter.com/_enusec_
-    - name: vk
-      url:
+
 home:
-  section1: <h1>ENUSEC>_</h1>
-  section2: <h2>Edinburgh Napier University Security Society</h2>
-  section3: <div class="social-links"><a class="ico-github btn" href="https://github.com/yizeng/jekyll-theme-simple-texture" title="View on GitHub"></a></div>
+  section1: 
+  section2: 
+  section3:
+
 blog:
   cc_license: http://creativecommons.org/licenses/by-sa/4.0/ # A link to CC License of your choice.
   cc_license_image: /assets/images/theme/cc-by-sa.png # An image of your CC License. 
@@ -66,3 +58,9 @@ paths:
   blog: /blog/
   categories: /blog/categories/
   tags: /blog/tags/
+
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
