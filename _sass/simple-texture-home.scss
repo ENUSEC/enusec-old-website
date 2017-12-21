@@ -81,7 +81,7 @@ textarea {
 }
 
 #section0 {
-    background: url('../images/theme/noisy_texture_section0-200x200.png') repeat 0 0 #F0F0F0;
+    /* background: url('../images/theme/noisy_texture_section0-200x200.png') repeat 0 0 #F0F0F0; */
 }
 
 #section1 {
@@ -181,8 +181,6 @@ textarea {
     }
 }
 
-
-
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2017 Twitter, Inc.
@@ -190,8 +188,8 @@ textarea {
  */
 
 /*!
- * Generated using the Bootstrap Customizer (https://getbootstrap.com/docs/3.3/customize/?id=39aa5a3cdd00b889d144c948f68a3b56)
- * Config saved to config.json and https://gist.github.com/39aa5a3cdd00b889d144c948f68a3b56
+ * Generated using the Bootstrap Customizer (https://getbootstrap.com/docs/3.3/customize/?id=4960107519178a7ac98bca29dbee9d5e)
+ * Config saved to config.json and https://gist.github.com/4960107519178a7ac98bca29dbee9d5e
  */
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
@@ -397,7 +395,13 @@ html {
   font-size: 10px;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333333;
+  background-color: #ffffff;
+}
 input,
 button,
 select,
@@ -476,6 +480,60 @@ hr {
 }
 [role="button"] {
   cursor: pointer;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+code {
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #c7254e;
+  background-color: #f9f2f4;
+  border-radius: 4px;
+}
+kbd {
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #ffffff;
+  background-color: #333333;
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.25);
+          box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+kbd kbd {
+  padding: 0;
+  font-size: 100%;
+  font-weight: bold;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+pre {
+  display: block;
+  padding: 9.5px;
+  margin: 0 0 10px;
+  font-size: 13px;
+  line-height: 1.42857143;
+  word-break: break-all;
+  word-wrap: break-word;
+  color: #333333;
+  background-color: #f5f5f5;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+pre code {
+  padding: 0;
+  font-size: inherit;
+  color: inherit;
+  white-space: pre-wrap;
+  background-color: transparent;
+  border-radius: 0;
+}
+.pre-scrollable {
+  max-height: 340px;
+  overflow-y: scroll;
 }
 .container {
   margin-right: auto;
@@ -1144,6 +1202,32 @@ hr {
     margin-left: 0%;
   }
 }
+.embed-responsive {
+  position: relative;
+  display: block;
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.embed-responsive .embed-responsive-item,
+.embed-responsive iframe,
+.embed-responsive embed,
+.embed-responsive object,
+.embed-responsive video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  border: 0;
+}
+.embed-responsive-16by9 {
+  padding-bottom: 56.25%;
+}
+.embed-responsive-4by3 {
+  padding-bottom: 75%;
+}
 .clearfix:before,
 .clearfix:after,
 .container:before,
@@ -1404,6 +1488,3 @@ hr {
     display: none !important;
   }
 }
-
-
-@import 'simple-texture/home/responsive';
