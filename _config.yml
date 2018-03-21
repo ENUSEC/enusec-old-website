@@ -22,7 +22,7 @@ sass:
 
 # Site Data
 url: https://enusec.github.io # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: /websiteJekyll # the subpath of your site, e.g. /blog
+baseurl: /website # the subpath of your site, e.g. /blog
 title: ENUSEC>_
 description: "Edinburgh Napier University Security Society"
 keywords: 'enusec,napier,blog'
