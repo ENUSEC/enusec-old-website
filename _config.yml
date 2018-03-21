@@ -21,7 +21,7 @@ sass:
   style: compressed
 
 # Site Data
-url: https://enusec.github.io # the base hostname & protocol for your site, e.g. http://example.com
+url: https://enusec.org # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: / # the subpath of your site, e.g. /blog
 title: ENUSEC>_
 description: "Edinburgh Napier University Security Society"
