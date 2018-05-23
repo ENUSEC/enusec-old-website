@@ -21,4 +21,4 @@ We hope this directory is the start of a blossoming nationwide cyber security co
 
 Jamie O'Hare
 
-President Elect
+@TheHairyJ
