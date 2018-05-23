@@ -20,4 +20,5 @@ If you feel that your society should be on this list, then feel free to contribu
 We hope this directory is the start of a blossoming nationwide cyber security community.
 
 Jamie O'Hare
+
 President Elect
