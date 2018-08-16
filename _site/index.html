@@ -52,6 +52,8 @@
 <body>
     <ul id="menu">
         <li data-menuanchor="bio"><a href="#bio">Biography</a></li>
+        <li data-menuanchor="about"><a href="#about">About Us</a></li>
+        <li data-menuanchor="affilates"><a href="#affilates">Affilates</a></li>
         <li data-menuanchor="social"><a href="#social">Social Links</a></li>
         <li data-menuanchor="committee"><a href="#committee">Committee</a></li>
     </ul>
@@ -71,12 +73,58 @@
                     <img class="img-responsive center-block" src="/img/2017_enusec_logo_black.jpg"></img>
                 </div>
             </div>
+            <a class="btn-continue animated bounce" title="More" href="#about"></a>
+        </div>
+    </div>
+
+<!-- second swipe on index page //jamie -->
+        <div class="container">
+            <p>Have an interest in hacking, digital forensics, malware analysis, penetration testing or infosec? ENUSEC might be for you!</p>
+            <p>ENUSEC hold weekly meetups on Wednesday's afternoons in C27 at Edinburgh Napier University's historic Merchiston campus</p>
+            <a class="btn-continue animated bounce" title="More" href="#affilates"></a>
+        </div>
+    </div>
+
+<!-- third swipe on index page //jamie -->
+    <div id="section2" class="section" data-name="affilates">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-4">
+                    <img class="img-responsive center-block" src="/assets/images/peter.png"> </img>
+                    <p>Immersive Labs</p>
+                </div>
+                <div class="col-xs-4">
+                    <img class="img-responsive center-block" src="/assets/images/kinga.png"> </img>
+                    <p>Hack the Box</p>
+                </div>
+                <div class="col-xs-4">
+                    <img class="img-responsive center-block" src="/assets/images/euan.png"> </img>
+                    <p>Cyber Connect Scotland</p>
+                </div>
+            </div>    
+            <div class="row">
+                <div class="col-xs-4">
+                    <img class="img-responsive center-block" src="/assets/images/michael.png"> </img>
+                    <p>2600 Edinburgh</p>
+                </div>
+                <div class="col-xs-4">
+                    <img class="img-responsive center-block" src="/assets/images/scott.png"> </img>
+                    <p>The Cyber Academy</p>
+                </div>
+                <div class="col-xs-4">
+                    <img class="img-responsive center-block" src="/assets/images/helena.png"> </img>
+                    <p>A Security Site</p>
+                </div>
+            </div>
+        </div>
+    </div>        
+        </div>
             <a class="btn-continue animated bounce" title="More" href="#social"></a>
         </div>
     </div>
 
-<!-- second swipe on index page //aabywan -->
-    <div id="section1" class="section" data-name="social">
+<!-- fourth swipe on index page //aabywan -->
+    <div id="section3" class="section" data-name="social">
         <h1 class="animated hidden">
             <a class="btn-enter btn-light" title="Enter Blog" href="/blog/">Enter Blog</a>
         </h1>
@@ -102,8 +150,8 @@
         <a class="btn-continue animated bounce" title="More" href="#committee"></a>
     </div>
 
-<!-- third swipe on index page //aabywan -->
-    <div id="section3" class="section" data-name="committee">
+<!-- fifth swipe on index page //aabywan -->
+    <div id="section4" class="section" data-name="committee">
         <div class="headings animated fadeInLeft">
 <div class="container">
                <div class="row">
@@ -151,7 +199,7 @@
 <script>
     $(document).ready(function () {
         $.fn.fullpage({
-            anchors: ['bio', 'social', 'committee'],
+            anchors: ['bio', 'about', 'affilates', 'social', 'committee'],
             css3: true,
             fixedElements: '.site-notice',
             menu: '#menu',
