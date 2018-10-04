@@ -33,22 +33,22 @@ author: "ENUSEC"
 title: "ENUSEC"
 description: "Edinburgh Napier Security Society"
 keywords: "ENUSEC, enusec, napier, cyber, cybersecurity"
-favicon: "/img/favicon.ico"
+favicon: ""
 
 ################
 # Header layout #
 ################
 
-black-favicon: "/img/black-lab-glass.ico"
+black-favicon: ""
 
-background-img: "../img/intro-bg.jpg"
+background-img: "../img/intro-bg.png"
 
 ##############################
 # Dynamic Text on the Header #
 ##############################
 
-dynamic-typing: True
-shuffle: True # Shuffle the lines.
+dynamic-typing: False
+shuffle: false # Shuffle the lines.
 loop: True
 loop-count: False # Set False for infinite loop, or set any number for finite loop.
 type-speed: 10
@@ -58,7 +58,7 @@ lines: # You can add HTML Tags in the Text
   - text: "<font color='20C20E'>$ whoami</font>"
   - text: "<font color='20C20E'>$ Edinburgh Napier Security Society</font>"
 
-me-img: "/img/jetpactocat.png"
+me-img: ""
 
 # To use facebook profile pic comment the previous line and uncomment the following
 # line, and replace 'user_id' with your facebook user id.
@@ -156,8 +156,8 @@ email: "enusec@gmail.com"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional engineering projects. In his spare time, John likes to eat cotton candy."
-author_blurb_image: "/img/author.png"
+author_blurb: ""
+author_blurb_image: ""
 
 ##################
 # Social Buttons #
@@ -165,15 +165,11 @@ author_blurb_image: "/img/author.png"
 
 social:
   - title: "facebook"
-    url: "https://facebook.com/"
+    url: "https://facebook.com/enusec"
   - title: "twitter"
-    url: "https://twitter.com/"
+    url: "https://twitter.com/_enusec_"
   - title: "github"
-    url: "https://github.com/PanosSakkos/personal-jekyll-theme"
-  - title: "bitcoin"
-    url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
-  - title: "rss"
-    url: "/feed.xml"
+    url: "https://github.com/ENUSEC"
 
 ############
 # 404 page #
@@ -185,7 +181,7 @@ err-404-img: "/img/labtocat.png"
 # GPG on Keybase #
 ##################
 
-keybase-username: johnsmith
+keybase-username: enusec
 keybase-in-social: True
 keybase-in-footer: True
 
@@ -197,8 +193,10 @@ keybase-in-footer: True
 
 pages_list:
   About: 'about'
+  Social: 'social'
   Blog: 'latest-post'
-  Timeline: 'timeline'
+  Press: 'press'
+  Committee: 'committee'
   Contact: 'contact'
 
 # Exclusion list from the generated _site
