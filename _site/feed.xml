@@ -7,10 +7,10 @@
 		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
-				<title>Welcome to { Personal } Jekyll Theme!</title>
+				<title>Welcome to the new Site!</title>
 				
 				
-					<description>&lt;p&gt;Click the view more posts link bellow, to see the currently available post-tutorials to help you get your { Personal } website up and running quicker!&lt;/p&gt;
+					<description>&lt;h1 id=&quot;welcome-to-the-new-enusec-site&quot;&gt;Welcome to the new ENUSEC site!&lt;/h1&gt;
 
 </description>
 				
@@ -45,87 +45,6 @@ serving your { Personal } website for the first time.&lt;/p&gt;
 				<pubDate>Wed, 24 Jun 2015 00:00:00 +0100</pubDate>
 				<link>http://localhost:4000/tech/2015/06/24/intro-layout-tutorial.html</link>
 				<guid isPermaLink="true">http://localhost:4000/tech/2015/06/24/intro-layout-tutorial.html</guid>
-			</item>
-		
-			<item>
-				<title>Web app mode</title>
-				
-				
-					<description>&lt;p&gt;You can make your website behave like a native web app in iOS and Android devices
-by providing links for the icons for each resolution:&lt;/p&gt;
-
-</description>
-				
-				<pubDate>Mon, 22 Jun 2015 00:00:00 +0100</pubDate>
-				<link>http://localhost:4000/tech/2015/06/22/web-app-mode.html</link>
-				<guid isPermaLink="true">http://localhost:4000/tech/2015/06/22/web-app-mode.html</guid>
-			</item>
-		
-			<item>
-				<title>Setting up the Blog</title>
-				
-				
-					<description>&lt;p&gt;A website is truly personal if it hosts your blog as well, this place of the internet
-where you can place your thoughts about anything!&lt;/p&gt;
-
-</description>
-				
-				<pubDate>Sat, 20 Jun 2015 00:00:00 +0100</pubDate>
-				<link>http://localhost:4000/tech/2015/06/20/blog-tutorial.html</link>
-				<guid isPermaLink="true">http://localhost:4000/tech/2015/06/20/blog-tutorial.html</guid>
-			</item>
-		
-			<item>
-				<title>Writing posts</title>
-				
-				
-					<description>&lt;h3 id=&quot;creating-a-new-post&quot;&gt;Creating a new post&lt;/h3&gt;
-
-</description>
-				
-				<pubDate>Fri, 19 Jun 2015 00:00:00 +0100</pubDate>
-				<link>http://localhost:4000/tech/2015/06/19/writing-posts.html</link>
-				<guid isPermaLink="true">http://localhost:4000/tech/2015/06/19/writing-posts.html</guid>
-			</item>
-		
-			<item>
-				<title>Adding a life event in the Timeline</title>
-				
-				
-					<description>&lt;p&gt;One of the coolest features of { Personal } is that enables you to tell your life’s story in
-the form of a timeline of photos, dates and text descriptions.&lt;/p&gt;
-
-</description>
-				
-				<pubDate>Fri, 12 Jun 2015 00:00:00 +0100</pubDate>
-				<link>http://localhost:4000/tech/2015/06/12/timeline-tutorial.html</link>
-				<guid isPermaLink="true">http://localhost:4000/tech/2015/06/12/timeline-tutorial.html</guid>
-			</item>
-		
-			<item>
-				<title>Modifying the social buttons</title>
-				
-				
-					<description>&lt;p&gt;Social buttons (rendered above the footer) are great for having a small hub with all your social footprint.&lt;/p&gt;
-
-</description>
-				
-				<pubDate>Thu, 11 Jun 2015 00:00:00 +0100</pubDate>
-				<link>http://localhost:4000/tech/2015/06/11/social-buttons-tutorial.html</link>
-				<guid isPermaLink="true">http://localhost:4000/tech/2015/06/11/social-buttons-tutorial.html</guid>
-			</item>
-		
-			<item>
-				<title>Modifying the Contact</title>
-				
-				
-					<description>&lt;p&gt;The contact part of the index page is consisted of two elements:&lt;/p&gt;
-
-</description>
-				
-				<pubDate>Wed, 10 Jun 2015 00:00:00 +0100</pubDate>
-				<link>http://localhost:4000/tech/2015/06/10/contact-tutorial.html</link>
-				<guid isPermaLink="true">http://localhost:4000/tech/2015/06/10/contact-tutorial.html</guid>
 			</item>
 		
 	</channel>
