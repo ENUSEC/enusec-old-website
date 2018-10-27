@@ -182,8 +182,8 @@ err-404-img: "/img/labtocat.png"
 ##################
 
 keybase-username: enusec
-keybase-in-social: True
-keybase-in-footer: True
+keybase-in-social: False
+keybase-in-footer: False
 
 ################################################################################
 
