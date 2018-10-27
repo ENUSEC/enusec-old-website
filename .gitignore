@@ -3,6 +3,7 @@
 
 ## mac nonsense
 .DS_Store
+.code_workspace
 
 ### Jekyll ###
 _site/
