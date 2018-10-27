@@ -19,33 +19,5 @@
 				<guid isPermaLink="true">http://localhost:4000/tech/2015/06/27/welcome.html</guid>
 			</item>
 		
-			<item>
-				<title>Initial setup</title>
-				
-				
-					<description>&lt;p&gt;All features of { Personal } are controlled by setting values to variables that are defined in the
-_config.yml file. Let’s start with the initial variables that you have to set before
-serving your { Personal } website for the first time.&lt;/p&gt;
-
-</description>
-				
-				<pubDate>Thu, 25 Jun 2015 00:00:00 +0100</pubDate>
-				<link>http://localhost:4000/tech/2015/06/25/initial-setup.html</link>
-				<guid isPermaLink="true">http://localhost:4000/tech/2015/06/25/initial-setup.html</guid>
-			</item>
-		
-			<item>
-				<title>Modifying the Header</title>
-				
-				
-					<description>&lt;p&gt;The intro part of the index page (Header) is consisted of four elements:&lt;/p&gt;
-
-</description>
-				
-				<pubDate>Wed, 24 Jun 2015 00:00:00 +0100</pubDate>
-				<link>http://localhost:4000/tech/2015/06/24/intro-layout-tutorial.html</link>
-				<guid isPermaLink="true">http://localhost:4000/tech/2015/06/24/intro-layout-tutorial.html</guid>
-			</item>
-		
 	</channel>
 </rss>
