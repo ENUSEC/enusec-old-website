@@ -1,38 +1,41 @@
+
+<!-- Blog Layout Start -->
+
 <!DOCTYPE html>
+<html lang="{{ site.lang }}">
 
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js" lang="{{ site.lang }}">
-<!--<![endif]-->
+  {% include head.html %}
 
-<head>
-    {% include common/meta.html %}
-    <link href='{{ site.baseurl }}/assets/stylesheets/blog.css' rel="stylesheet" type="text/css">
-    {% include common/libraries.html %}
-</head>
+  <body>
 
-<body>
-    {% include common/notices.html %}
-    {% include blog/overlay.html %}
+    {% include navigation.html %}
 
-    <div id="page" class="hentry">
-        {% include blog/header.html %}
+    <section id="page" class="container content-section text-center">
 
-        <div class="body animated fadeInDown" role="main">
-            <div class="unit-body">
-                <div class="unit-inner unit-body-inner">
-                    <div class="entry-content">
-                        {{ content }}
-                    </div>
-                </div>
-            </div>
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1 col-xs-10 col-xs-offset-1">
+
+        {% include swipe-instructions.html %}
+
+        {{ page.content | markdownify }}
+
+        <div>
+          {% for post in paginator.posts %}
+            {% include post-list.html%}
+          {% endfor %}
         </div>
-        {% include blog/footer.html %}
-    </div>
 
-    {% include blog/scripts.html %}
-</body>
+        {% include pagination.html %}
 
+        </div>
+      </div>
+    </section>
+
+    {% include footer.html %}
+
+    {% include js.html %}
+
+  </body>
 </html>
+
+<!-- Blog Layout End -->

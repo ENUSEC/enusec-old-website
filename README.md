@@ -1,167 +1,98 @@
-# Notes
-+ bundle install
-+ bundle exec jekyll serve --watch
-+ posts - > posts dir
-+ assets - > images for post photos
-+ images currently go to /websiteJekyll/img/<date>-<title>.jpg
+# { Personal } Jekyll Theme
+![Build Status](https://travis-ci.org/le4ker/personal-jekyll-theme.svg?branch=master)
+![license](https://img.shields.io/badge/license-MIT-blue.svg?link=https://github.com/dono-app/ios/blob/master/LICENSE)
+[![Join the chat at https://gitter.im/PanosSakkos/personal-jekyll-theme](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/panossakkos/personal-jekyll-theme?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
+{ Personal } is a free responsive Jekyll theme, about you :wink:
 
-# Simple Texture Jekyll Theme
+You can watch it in action [here](https://le4ker.github.io/personal-jekyll-theme/)!
 
-![Gem Version](https://img.shields.io/gem/v/jekyll-theme-simple-texture.svg)
+<img src="https://github.com/le4ker/personal-jekyll-theme/raw/master/.github/personal-mobile.mov.gif" height="480">
 
-Simple Texture is a gem-based responsive simple texture styled Jekyll theme for [Jekyll][Jekyll] 3.3 or above,
-which can also be forked as a boilerplate for older versions of Jekyll.
+<img src="https://github.com/le4ker/personal-jekyll-theme/raw/master/.github/personal-desktop.mov.gif" height="600" width="960">
 
-## Demo
+## What value does { Personal } add
 
-- Starter-kit demo:
-<https://yizeng.github.io/jekyll-theme-simple-texture/>
-- My own personal blog: <http://yizeng.me/blog>
+* Fork of [Timeline](https://github.com/kirbyt/timeline-jekyll-theme) (mashup of [Grayscale by Start Bootstrap](https://github.com/IronSummitMedia/startbootstrap-grayscale) and [Agency Jekyll Theme](https://github.com/y7kim/agency-jekyll-theme))
+  * Modern and minimal design
+    * Responsive templates for home page, blog archive and posts. Looks great on mobile, tablet, and desktop devices
+    * Sweet animations
+    * Gracefully degrades in older browsers. Compatible with Internet Explorer 8+ and all modern browsers
+  * Timeline
+    * Tell your story so far with a sleek timeline of dates, pictures and descriptions
+  * White on black text, making the reading experience tireless
+  * Google analytics  
+* Customization and full control of your website and blog through the site config
+* Customization of the website's coloring
+* Blogging functionality
+  * Preview of the latest post in the home page
+  * Archive page
+  * Syntax highlighting
+  * Emojis
+  * Gesture navigation in archive and post pages by swiping
+  * Hashtags
+  * Categories
+  * Disqus comments
+  * Bootstrap share buttons
+  * RSS feed
+* Author blurb under the posts
+* 404 page
+* iOS and Android Web App mode
+* Enforcing of https protocol
+* Protection from email harvesting
+* Sitemap
+* Travis CI integration with [html-proofer](https://github.com/gjtorikian/html-proofer)
 
-![Screenshot - Home](assets/images/screenshots/home.png)
+## Documentation
 
-![Screenshot - Blog](assets/images/screenshots/post.png)
+The theme contains documentation in the form of [blog posts](https://le4ker.github.io/personal-jekyll-theme/blog/index.html).
 
-## Installation
+## How to run locally
 
-### As a Jekyll theme gem (Jekyll >= 3.3)
+First, you need to install jekyll and the dependencies of { Personal } by running:
 
-If you are creating a new website or blog,
-please follow the commands below first:
+```shell
+./scripts/install
+```
 
-1. Install Jekyll and [Bunlder][Bunlder]
+Then, you can build and serve your website by simply running:
 
-       gem install jekyll bundler
+```shell
+./scripts/serve-production
+```
 
-2. Create a new Jekyll app
+To serve across lan (requires su to forward the port 4000 over lan):
 
-       jekyll new jekyllapp
+```shell
+./scripts/serve-lan-production
+```
 
-3. Enter the new directory
+### Docker
 
-       cd jekyllapp
+Run using Docker:
 
-4. Then follow the instructions below like existing Jekyll app.
+```
+docker run --rm -it -p 4000:4000 -v "$PWD:/srv/jekyll" jekyll/jekyll jekyll serve --watch --host "0.0.0.0" --config _config.yml,_config.dev.yml
+```
 
-Then for existing Jekyll apps,
+Run using Docker with Docker Compose:
+```
+docker-compose up
+```
 
-1. Install Bundler if haven't done so.
+## OSS used in { Personal }
 
-       gem install bundler
+One of the reasons { Personal } is real is the following OSS projects:
 
-1. Remove Jekyll auto-generated default pages `404.html`, `about.md` and `index.md` or any your custom layouts or existing theme files.
+  1. [Grayscale](http://startbootstrap.com/template-overviews/grayscale/)
+  2. [hammer.js](https://hammerjs.github.io/)
+  3. [highlightjs](https://highlightjs.org/)
+  4. [RRSSB](https://github.com/kni-labs/rrssb)
+  5. [Timeline](https://github.com/kirbyt/timeline-jekyll-theme)
+  6. [typed.js](https://github.com/mattboldt/typed.js/)
 
-1. Remove the existing `Gemfile.lock`.
-
-1. Download the respository [here](https://github.com/yizeng/jekyll-theme-simple-texture/archive/master.zip)
-and locate `starter-kit` folder,
-or download `starter-kit` folder directly [here](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/yizeng/jekyll-theme-simple-texture/tree/master/starter-kit).
-
-1. Put everything in the `starter-kit` in the root directory,
-i.e. `jekyllapp` in this example.
-
-1. Run `bundle install` to install dependencies.
-
-1. Run Jekyll with `bundle exec jekyll serve`
-
-1. Hack away at <http://localhost:4000>!
-
-### As a fork
-
-1. Fork the repo [here](https://github.com/yizeng/jekyll-theme-simple-texture#fork-destination-box)
-
-2. Clone the repo just forked.
-
-       git clone git@github.com:[YOUR_USERNAME]/jekyll-theme-simple-texture.git
-
-3. Delete `starter-kit` folder and `jekyll-theme-simple-texture.gemspec` file (they're for people installing via gem)
-
-4. Install Bundler if haven't done so.
-
-       gem install bundler
-
-5. Update the `Gemfile` to look like the following:
-
-   ```ruby
-   source "https://rubygems.org"
-
-   gem 'jekyll', '= 3.5.2' # locked in to be consistent GitHub Pages.
-
-   group :jekyll_plugins do
-     gem 'jekyll-feed'
-     gem 'jekyll-redirect-from'
-     gem 'jekyll-seo-tag'
-     gem 'jekyll-sitemap'
-   end
-   ```
-
-6. Run `bundle install` to install dependencies.
-
-7. Run Jekyll with `bundle exec jekyll serve`
-
-8. Hack away at <http://localhost:4000>!
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at <https://github.com/yizeng/jekyll-theme-simple-texture>. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
-## Credits
-
-- [Jekyll][Jekyll]
-  + [jekyll-feed](https://github.com/jekyll/jekyll-feed)
-  + [jekyll-redirect-from](https://github.com/jekyll/jekyll-redirect-from)
-  + [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag)
-  + [jekyll-sitemap](https://github.com/jekyll/jekyll-sitemap)
-  + [Simple-Jekyll-Search](https://github.com/christian-fei/Simple-Jekyll-Search)
-  + [Jekyll-Bootstrap](http://jekyllbootstrap.com/)
-  + [theme-the-program](https://github.com/jekyllbootstrap/theme-the-program)
-
-- [Sass](http://sass-lang.com/)
-  + [Normalize.css](https://necolas.github.io/normalize.css/)
-  + [Animate.css](https://daneden.github.io/animate.css/)
-  + [Simple Icons](https://simpleicons.org/)
-  + [Noise Texture Generator](http://www.noisetexturegenerator.com/)
-- JavaScript
-  + [cdnjs](https://cdnjs.com/)
-  + [jQuery](https://jquery.com/)
-  + [fullPage.js](https://alvarotrigo.com/fullPage/)
-  + [pace.js](http://github.hubspot.com/pace/docs/welcome/)
-  + [Modernizr](https://modernizr.com/)
-  + [FancyBox](http://fancybox.net/)
-  + [unveil.js](http://luis-almeida.github.io/unveil/)
-- Fonts
-  + [Font Squirrel](https://www.fontsquirrel.com/)
-  + [Bitter](https://fonts.google.com/specimen/Bitter)
-  + [Junge](https://fonts.google.com/specimen/Junge)
-  + [Ubuntu Condensed](https://fonts.google.com/specimen/Ubuntu+Condensed)
-
-## License
-
-The theme is available as open source under the terms of the
-[MIT License](https://github.com/yizeng/jekyll-theme-simple-texture/blob/master/LICENSE).
-
-    MIT License
-
-    Copyright (c) 2017 Yi Zeng
-
-    Permission is hereby granted, free of charge, to any person obtaining a copy
-    of this software and associated documentation files (the "Software"), to deal
-    in the Software without restriction, including without limitation the rights
-    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-    copies of the Software, and to permit persons to whom the Software is
-    furnished to do so, subject to the following conditions:
-
-    The above copyright notice and this permission notice shall be included in all
-    copies or substantial portions of the Software.
-
-    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-    SOFTWARE.
-
-[Jekyll]: http://jekyllrb.com/
-[Bunlder]: http://bundler.io/
+<div style="font-size:16px;margin:0 auto;width:300px">
+    <a href="https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi">
+        <img src="https://blockchain.info/Resources/buttons/donate_64.png"/>
+    </a>
+</div>
