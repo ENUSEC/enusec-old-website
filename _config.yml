@@ -193,9 +193,9 @@ keybase-in-footer: False
 
 pages_list:
   About: 'about'
-  Social: 'social'
+  #Social: 'social'
   Blog: 'latest-post'
-  Impact: 'impact'
+  #Impact: 'impact'
   Committee: 'committee'
   Contact: 'contact'
 
