@@ -6,5 +6,35 @@
 		<link>http://localhost:4000/website</link>
 		<atom:link href="http://localhost:4000/website/feed.xml" rel="self" type="application/rss+xml" />
 		
+			<item>
+				<title>Introducing the Cyber Security Societies Directory</title>
+				
+				
+					<description>&lt;h1 id=&quot;introducing-the-cyber-security-societies-directory&quot;&gt;Introducing the Cyber Security Societies Directory&lt;/h1&gt;
+
+</description>
+				
+				<pubDate>Wed, 23 May 2018 00:00:00 +0100</pubDate>
+				<link>http://localhost:4000/website/information/2018/05/23/UKCyberSec.html</link>
+				<guid isPermaLink="true">http://localhost:4000/website/information/2018/05/23/UKCyberSec.html</guid>
+			</item>
+		
+			<item>
+				<title>VolgaCTF 2018 qual writeups</title>
+				
+				
+					<description>&lt;h1 id=&quot;writeups-included-in-this-post&quot;&gt;Writeups included in this post&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;Old Government Site (web 150 pts)&lt;/li&gt;
+  &lt;li&gt;Master (forensics 100 pts)&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+				
+				<pubDate>Sun, 25 Mar 2018 00:00:00 +0000</pubDate>
+				<link>http://localhost:4000/website/online%20ctf/2018/03/25/Volga-CTF-18-writeups.html</link>
+				<guid isPermaLink="true">http://localhost:4000/website/online%20ctf/2018/03/25/Volga-CTF-18-writeups.html</guid>
+			</item>
+		
 	</channel>
 </rss>
