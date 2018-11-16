@@ -195,7 +195,7 @@ pages_list:
   About: 'about'
   #Social: 'social'
   Blog: 'latest-post'
-  #Impact: 'impact'
+  Impact: 'impact'
   Committee: 'committee'
   Contact: 'contact'
 

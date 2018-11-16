@@ -60,13 +60,4 @@
     
   
   
-    <url>
-      <loc>http://localhost:4000/tech/2015/06/27/welcome.html</loc>
-      
-        <lastmod>2015-06-27T00:00:00+01:00</lastmod>
-      
-      <changefreq>weekly</changefreq>
-      <priority>1.0</priority>
-    </url>
-  
 </urlset>
