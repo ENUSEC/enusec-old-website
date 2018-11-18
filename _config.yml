@@ -194,6 +194,7 @@ keybase-in-footer: False
 pages_list:
   About: 'about'
   #Social: 'social'
+  Ltdh19: 'ltdh19'
   Blog: 'latest-post'
   Impact: 'impact'
   Committee: 'committee'
