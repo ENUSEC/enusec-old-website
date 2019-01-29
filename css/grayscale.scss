@@ -32,7 +32,7 @@ h6 {
     margin: 0 0 35px;
     text-transform: uppercase;
     font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
-  
+
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -448,3 +448,44 @@ body {
 }
 
 /*orestis' changes below */
+
+.content-section img{
+  border-style:none;
+}
+cus {
+    margin: 0 0 25px;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align:justify;
+    text-align-last:center;
+    @media(max-width:768px) {
+        margin: 0 0 15px;
+        font-size: 3vw;
+        line-height: 1.6;
+    }
+}
+.teamname{
+  margin-bottom:10px;
+
+}
+p{
+  font-size:1.5vw;
+  @media(max-width:768px) {
+      font-size:3.5vw;
+  }
+}
+h2{
+  @media(max-width:768px) {
+      font-size:5.5vw;
+  }
+}
+h3{
+  @media(max-width:768px) {
+      font-size:4.5vw;
+  }
+}
+h4{
+  @media(max-width:768px) {
+      font-size:3.5vw;
+  }
+}
