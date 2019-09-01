@@ -14,7 +14,7 @@ If you're interested in cyber security you'll love what we have in store for the
 
 No experience is neccessary, food and beverages will be provided as well as prizes for the top teams!
 
-Here are some photos from last year's event:
+[Here are some photos from last year's event](https://enusec.org/information/2019/08/25/Freshers-CTF.html)
 
 <img src="https://enusec.org/img/freshers1.jpg" alt="freshers1">  <br>
 <img src="https://enusec.org/img/freshers2.jpg" alt="freshers2"> <br>
