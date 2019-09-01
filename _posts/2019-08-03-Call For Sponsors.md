@@ -14,6 +14,6 @@ If you're not familiar ENUSEC, Le Tour Du Hack is our flagship annual event. Le 
 
 
 
-Will BOwditch
+Will Bowditch
 
 @thickbill
