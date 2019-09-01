@@ -1,0 +1,66 @@
+I"d
+<h2 id="committee">Committee</h2>
+<p>Day to Day administration of the society is bestowed upon the 5 member committee.</p>
+
+<div class="row">
+    <div class="col-xs-4">
+        <img style="border-radius: 50%;" class="committee_img img-responsive center-block" src="./img/will.jpg" />
+            <br />
+                <h4 class="teamname">President</h4>
+                <cus>Will Bowditch</cus>
+                <cus>MSc Advanced Security and Digital Forensics</cus>
+    </div>
+    <div class="col-xs-4">
+        <img style="border-radius: 50%;" class="committee_img img-responsive center-block" src="./img/james.jpg" />
+            <br />
+                <h4 class="teamname">Vice-President</h4>
+                <cus>James Angus</cus>
+                <cus>3rd Year BEng Cybersecurity and Forensics</cus>
+    </div>
+    <div class="col-xs-4">
+        <img style="border-radius: 50%;" class="committee_img img-responsive center-block" src="./img/karl.jpg" />
+            <br />
+                <h4 class="teamname">Secretary</h4>
+                <cus>Karl Johnston</cus>
+                <cus>3rd Year BEng Computer Systems &amp; Networks</cus>
+    </div>
+</div>
+<p><br /></p>
+<div class="row">
+    <div class="col-xs-4">
+        <img style="border-radius: 50%;" class="committee_img img-responsive center-block" src="./img/jonathan.jpg" />
+            <br />
+                <h4 class="teamname">Treasurer</h4>
+                <cus>Jonathan Robertson</cus>
+                <cus>4th Year BEng Cybersecurity and Forensics</cus>
+    </div>
+    <!--
+    <div class="col-xs-4">
+        <img style="border-radius: 50%;" class="committee_img img-responsive center-block" src="./img/scott.png">
+            <br>
+                <h4 class="teamname">Technical Officer</h4>
+                <cus>Scott Bean</cus>
+                <cus>3rd Year BEng Cybersecurity and Forensics</cus>
+    </div>
+    -->
+    <div class="col-xs-4">
+        <img style="border-radius: 50%;" class="committee_img img-responsive center-block" src="./img/becca.jpg" />
+            <br />
+                <h4 class="teamname">Social Events Officer</h4>
+                <cus>Rebecca Stewart</cus>
+                <cus>4th Year BEng Cybersecurity and Forensics</cus>    </div>
+</div>
+<!--
+<br>
+<div class="row">
+  <div class="col-xs-4"></div>
+    <div class="col-xs-4">
+        <img style="border-radius: 50%;" class="committee_img img-responsive center-block" src="./img/orestis.png">
+            <br>
+                <h4 class="teamname">Media Officer</h4>
+                <cus>Orestis Christou</cus>
+                <cus>MSc Advanced Security and Digital Forensics</cus>
+        </div>
+</div>
+-->
+:ET

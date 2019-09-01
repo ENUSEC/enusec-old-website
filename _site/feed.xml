@@ -3,8 +3,8 @@
 	<channel>
 		<title>ENUSEC</title>
 		<description>Edinburgh Napier Security Society</description>
-		<link>http://localhost:4000</link>
-		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+		<link>http://0.0.0.0:4000</link>
+		<atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>Introducing the Cyber Security Societies Directory</title>
@@ -12,11 +12,22 @@
 				
 					<description>&lt;h1 id=&quot;introducing-the-cyber-security-societies-directory&quot;&gt;Introducing the Cyber Security Societies Directory&lt;/h1&gt;
 
+&lt;p&gt;To aid interaction and collaboration, ENUSEC has created a public directory containing all the cyber security societies across the country. This directory is available on our &lt;a href=&quot;https://github.com/ENUSEC/UK-University-CyberSec-Societies-Lookup&quot;&gt;GitHub!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;A problem which occurred during the compiling this list was difficulty in determining if a society was focused on cyber security. When a first draft list was compiled, it contained over 30 societies. However, on further investigation some of these societies who appeared to be more general computing focused or simply CTF teams.&lt;/p&gt;
+
+&lt;p&gt;If you feel that your society should be on this list, then feel free to contribute to the &lt;a href=&quot;https://github.com/ENUSEC/UK-University-CyberSec-Societies-Lookup&quot;&gt;public GitHub repository&lt;/a&gt; or approach a member of ENUSEC at an event.&lt;/p&gt;
+
+&lt;p&gt;We hope this directory is the start of a blossoming nationwide cyber security community.&lt;/p&gt;
+
+&lt;p&gt;Jamie O’Hare&lt;/p&gt;
+
+&lt;p&gt;@TheHairyJ&lt;/p&gt;
 </description>
 				
-				<pubDate>Wed, 23 May 2018 00:00:00 +0100</pubDate>
-				<link>http://localhost:4000/information/2018/05/23/UKCyberSec.html</link>
-				<guid isPermaLink="true">http://localhost:4000/information/2018/05/23/UKCyberSec.html</guid>
+				<pubDate>Wed, 23 May 2018 00:00:00 -0500</pubDate>
+				<link>http://0.0.0.0:4000/information/2018/05/23/UKCyberSec.html</link>
+				<guid isPermaLink="true">http://0.0.0.0:4000/information/2018/05/23/UKCyberSec.html</guid>
 			</item>
 		
 			<item>
@@ -28,12 +39,11 @@
   &lt;li&gt;Old Government Site (web 150 pts)&lt;/li&gt;
   &lt;li&gt;Master (forensics 100 pts)&lt;/li&gt;
 &lt;/ul&gt;
-
 </description>
 				
-				<pubDate>Sun, 25 Mar 2018 00:00:00 +0000</pubDate>
-				<link>http://localhost:4000/online%20ctf/2018/03/25/Volga-CTF-18-writeups.html</link>
-				<guid isPermaLink="true">http://localhost:4000/online%20ctf/2018/03/25/Volga-CTF-18-writeups.html</guid>
+				<pubDate>Sun, 25 Mar 2018 00:00:00 -0500</pubDate>
+				<link>http://0.0.0.0:4000/online%20ctf/2018/03/25/Volga-CTF-18-writeups.html</link>
+				<guid isPermaLink="true">http://0.0.0.0:4000/online%20ctf/2018/03/25/Volga-CTF-18-writeups.html</guid>
 			</item>
 		
 	</channel>

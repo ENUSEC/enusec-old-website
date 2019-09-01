@@ -33,7 +33,7 @@ author: "ENUSEC"
 title: "ENUSEC"
 description: "Edinburgh Napier Security Society"
 keywords: "ENUSEC, enusec, napier, cyber, cybersecurity"
-favicon: ""
+# favicon: ""
 
 ################
 # Header layout #
@@ -41,7 +41,7 @@ favicon: ""
 
 black-favicon: ""
 
-background-img: "../img/intro-bg.png"
+background-img: "../img/ENUSEC_loop.gif"
 
 ##############################
 # Dynamic Text on the Header #
@@ -194,7 +194,7 @@ keybase-in-footer: False
 pages_list:
   About: 'about'
   #Social: 'social'
-  Ltdh19: 'ltdh19'
+  Ltdh20: 'ltdh20'
   Blog: 'latest-post'
   Impact: 'impact'
   Committee: 'committee'
