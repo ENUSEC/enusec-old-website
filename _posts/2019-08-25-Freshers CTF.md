@@ -3,10 +3,10 @@ layout: post
 title: "Freshers CTF 2019"
 description: "C27 Merchiston Campus, 1PM Wednesday September 11th"
 categories: [Information]
-tags: [ltdh20]
+tags: [ctf]
 author: thickbill
 ---
-# LTDH20 Freshers CTF
+# ENUSEC Freshers CTF 2019
 
 ENUSEC's Freshers CTF is returning this year for freshers week! 
 
